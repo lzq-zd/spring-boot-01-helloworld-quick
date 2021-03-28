@@ -1,0 +1,30 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: prod
+---
+server:
+  port: 8081
+spring:
+  profiles: dev
+
+---
+
+server:
+  port: 8082
+spring:
+  profiles: prod
+# person:
+#   lastName: lzq
+#   age: 23
+#   boss: false
+#   birth: 2017/12/21
+#   maps: {k1: v1,k2: v2}
+#   lists:
+#     - lzq
+#     - hmj
+#     - dyp
+#   dog:
+#     name: 小狗
+#     age: 2
